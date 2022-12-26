@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">  
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+      }
+    a:link, a:visited {
+        background-color: #fa4f43;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      
+      a:hover, a:active {
+        background-color: red;
+        transition: 0.5s;
+      }
+    .list{
+        display: inline; 
+    }
+    footer{
+        padding-bottom: 0%;
+        /* text-align: center; */
+        margin-left: 38.5%;
+    }
+    
+    body {
+        background: #f2f2f2;
+        height: 100vh;
+        width: 100vw;
+        font-family: Arial;
+        padding: 0px;
+        margin: 0px;
+       
+    }
+    header{
+      width: 100%;
+      height: 4rem;
+      background-color:#fa4f43 ;
+      margin: 0px;
+      padding: 0px;
+      font-family: 'Indie Flower', cursive;
+      text-align: center;
+      font-size: 2.5rem;
+      color: #fff;
+    }
+    .container {
+      position: relative;
+      width: 50%;
+      margin-top: 3rem;
+    }
+    
+    .image {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    
+    .overlay {
+      position: absolute;
+      bottom: 100%;
+      left: 0;
+      right: 0;
+      background-color: #fa4f43;
+      overflow: hidden;
+      width: 100%;
+      height: 0;
+      transition: 1s ease;
+    }
+    
+    .container:hover .overlay {
+      bottom: 0;
+      height: 100%;
+    }
+    
+    .text {
+      white-space: nowrap; 
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      overflow: hidden;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+    }
+    
+    
+    .label{
+    
+      margin-top: 1rem;
+      margin-right: 1rem;
+      text-align: center;
+    }
+    .box{
+      text-align: center;
+      font-family: 'Sofia', cursive;
+      background-color: white;
+      border: solid 2px rgba(128, 128, 128, 0.767);
+      height: 7rem;
+      width: 70%;
+      margin-left: 15%;
+      margin-top: 20px;
+      margin-bottom: 50px;
+      border-radius: 5px;
+    }
+    
+</style>
+<header>
+    biography
+</header>
+<body>
+    <center>
+    <div class="container">
+        <img src="joker.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+          <div class="text">Put your picture here</div>
+        </div>
+      </div>
+    </center>
+    <center class="label">
+        Write something about yourself here <i class='fas fa-angle-double-down'></i>
+    </center>
+
+    <div class="box">
+        Smile, because it confuses people. Smile, because it's easier than explaining what is killing you inside.” <br>
+        ― The Joker - Heath Ledger
+    </div>
+    <!-- <center>
+        Smile, because it confuses people. Smile, because it's easier than explaining what is killing you inside.” <br>
+        ― The Joker - Heath Ledger
+    </center> -->
+</body>
+<footer>
+    
+        <ul>
+            <li class="list"> <a target="_blank" href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+            <li class="list"> <a target="_blank" href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="list"> <a target="_blank" href="https://www.youtube.com"><i class="fab fa-youtube"></i></a></li>
+            <li class="list"> <a target="_blank" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    
+</footer>
+
+</html>
